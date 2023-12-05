@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/such-chitrah/react-gh-pages/static/css/main.a423081b.css",
+    "main.js": "/such-chitrah/react-gh-pages/static/js/main.cb8447c0.js",
+    "static/media/Montserrat-Regular.ttf": "/such-chitrah/react-gh-pages/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/such-chitrah/react-gh-pages/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-Light.ttf": "/such-chitrah/react-gh-pages/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
+    "static/media/ding-sound.mp3": "/such-chitrah/react-gh-pages/static/media/ding-sound.8662de9acb2328ad74d9.mp3",
+    "index.html": "/such-chitrah/react-gh-pages/index.html",
+    "static/media/delete.svg": "/such-chitrah/react-gh-pages/static/media/delete.c6adfec0f409e1142807d9994a55f116.svg",
+    "static/media/play.svg": "/such-chitrah/react-gh-pages/static/media/play.143fb0aac9cdfff77aaa6cb9433e4f6b.svg",
+    "static/media/pause.svg": "/such-chitrah/react-gh-pages/static/media/pause.7ebdbc88659faa7aabf739268a0bacf3.svg",
+    "static/media/done.svg": "/such-chitrah/react-gh-pages/static/media/done.a8d9b14f915d4bf992d305d7147e37c2.svg",
+    "main.a423081b.css.map": "/such-chitrah/react-gh-pages/static/css/main.a423081b.css.map",
+    "main.cb8447c0.js.map": "/such-chitrah/react-gh-pages/static/js/main.cb8447c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a423081b.css",
+    "static/js/main.cb8447c0.js"
+  ]
+}
