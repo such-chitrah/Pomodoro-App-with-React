@@ -1,0 +1,14 @@
+header{
+    margin: 0;
+    padding: 20px;
+    letter-spacing: 4px;
+
+    box-shadow: 5px 5px 60px #d9d9d9, -5px -5px 60px #ffffff;
+    @media screen and (min-width : $mdScreen){
+        padding: 40px 20px;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+}

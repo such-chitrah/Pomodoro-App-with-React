@@ -1,0 +1,124 @@
+#timer{
+    max-width: 1180px;
+    margin: auto;
+    h2{
+        text-align: center;
+        margin: 40px auto;
+        &.title-part{
+            font-size: 40px;
+        }
+    }
+
+    form{
+        max-width: 510px;
+        text-align: center;
+        margin: 40px auto;
+        padding: 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        box-shadow:  45px 45px 230px #d9d9d9, 
+                    -45px -45px 230px #ffffff;
+        input{
+            width: 75px;
+            height: 75px;
+            @media screen and (min-width : $mdScreen){
+                width: 90px;
+                height: 90px;
+            }
+            color : $green;
+            text-align: center;
+            font-size: 40px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+
+            box-shadow:  41px 41px 82px #d9d9d9, 
+                        -41px -41px 82px #ffffff;
+
+            &::placeholder {
+                color: $blue;
+                font-size: 16px;
+                opacity: 0.6;
+                text-align: center;
+                @media screen and (min-width : $mdScreen){
+                    font-size: 20px;
+                }
+              }
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        label{
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .start{
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: $ftBold;
+            border: 1px solid transparent;
+            background-color: #fff;
+            transition: all 0.3s ease-in;
+            box-shadow:  41px 41px 82px #d9d9d9, 
+                        -41px -41px 82px #ffffff;
+            @media screen and (min-width : $mdScreen){
+                font-size: 20px;
+            }
+            &:hover{
+                background-color: $green;
+                color: #fff;
+            }
+        }
+    }
+
+    .control-area{
+        margin: 20px auto;
+        .timer-print{
+            font-size: 76px;
+        }
+        .control-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            cursor: pointer;
+            
+            width: 96px;
+            height: 96px;
+
+            border-radius: 45px;
+            border: 1px solid transparent;
+            box-shadow: 20px 20px 100px #d9d9d9, 
+                        20px 20px 100px #ffffff;
+            &.play{
+                
+                &:hover{
+                }
+            }
+            &.pause{
+                &:hover{
+                }
+            }
+            
+            img{
+                width: 64px;
+                height: 64px;
+                border-radius: 45px;
+            }
+        }
+    }
+}
